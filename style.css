@@ -25,6 +25,7 @@ h1{
 }
 
 h3{
+  text-align: center;
   font-family: 'MyWebFont', Arial, sans-serif;
   color: navy;
   font-size: 25px; /* Titres de 40 pixels */
@@ -52,7 +53,6 @@ h3{
   width: 400px;
   height: 100px;
   margin: 20px auto 90px;
-  /*background: #e0ebe8;*/
   color: #2c7fb8;
   font-weight: bold;
   font-size: 1em;
@@ -67,8 +67,12 @@ h3{
   font-size: 25px;
   color: DimGray;
 }  
+.conteneur1{
+    display: flex;
+}
 
 #competency {
+  width: 50%;
   top: 0;
   background: #2c7fb8; /*#3590F3*/
   padding: 12px;
@@ -79,6 +83,7 @@ h3{
 }
 
 #experience {
+  width: 50%;
   background: #2c7fb8; /*#3590F3 #62BFED*/
   padding: 12px;
   text-align: left;
@@ -157,7 +162,6 @@ nav ul li a:hover {
 }
 
 .show-all {
-
  text-decoration: none;
   display: block;
   width: 250px;
@@ -250,7 +254,7 @@ footer a {
 
 /* Container for skill bars */
 .container {
-  width: 40%; /* Full width */
+  width: 80%; /* Full width */
   background-color: #ddd; /* Grey background */
   border-radius: 16px;
   -webkit-border-radius: 16px;
@@ -270,12 +274,17 @@ footer a {
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
     -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
     -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
-
+  
     
 }
 
 .html {width: 90%; background-color: #4CAF50;} /* Green */
-.sql {width: 70%; background-color: green;} /* Blue */
+.sql {width: 70%; background-color: navy;} /* Blue */
 .vba {width: 80%; background-color: #4CAF50;} /* Red */
 .php {width: 60%; background-color: #808080;} /* Dark Grey */
 .java {width: 60%; background-color: #808080;} /* Dark Grey */
+
+/*tableau*/
+tr{
+  margin: 20px;
+}
