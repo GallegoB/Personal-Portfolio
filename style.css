@@ -31,6 +31,12 @@ h3{
   font-size: 25px; /* Titres de 40 pixels */
  }
 
+ h4{
+  text-align: center;
+  font-family: 'MyWebFont', Arial, sans-serif;
+  color: navy;
+ }
+
 .intro {
   font-family: 'MyWebFont', Arial, sans-serif;
   top: 0;
@@ -94,6 +100,13 @@ h3{
   padding: 12px;
   text-align: left;
 }
+.certif{
+  top:10px;
+  display: flex;
+}
+
+.open{width: 50%}
+.free{width: 50%}
 
 #projects {
   background: #3590F3; /*#C2BBF0*/
@@ -254,7 +267,8 @@ footer a {
 
 /* Container for skill bars */
 .container {
-  width: 80%; /* Full width */
+  width: 60%; /* Full width */
+  height: 20px;
   background-color: #ddd; /* Grey background */
   border-radius: 16px;
   -webkit-border-radius: 16px;
@@ -287,4 +301,15 @@ footer a {
 /*tableau*/
 tr{
   margin: 20px;
+}
+#ligneComp{
+  width: 100%;
+  height: 60px;
+  display: flex;
+}
+
+/*Logo compétance*/
+.logo{
+  width: 80px;
+ /* height: 60px;*/
 }
